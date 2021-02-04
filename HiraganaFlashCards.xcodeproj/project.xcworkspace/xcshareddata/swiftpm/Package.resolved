@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LearnHiragana",
+        "repositoryURL": "https://github.com/0xLeif/LearnHiragana",
+        "state": {
+          "branch": "main",
+          "revision": "9858e59b7514738ac2ba6997776bcf601757852d",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		292C62B525CCAEE00040A3E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C62B425CCAEE00040A3E7 /* ContentView.swift */; };
 		292C62B725CCAEE00040A3E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 292C62B625CCAEE00040A3E7 /* Assets.xcassets */; };
 		292C62BA25CCAEE00040A3E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 292C62B925CCAEE00040A3E7 /* Preview Assets.xcassets */; };
+		292C62C425CCAEF70040A3E7 /* LearnHiragana in Frameworks */ = {isa = PBXBuildFile; productRef = 292C62C325CCAEF70040A3E7 /* LearnHiragana */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				292C62C425CCAEF70040A3E7 /* LearnHiragana in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +87,9 @@
 			dependencies = (
 			);
 			name = HiraganaFlashCards;
+			packageProductDependencies = (
+				292C62C325CCAEF70040A3E7 /* LearnHiragana */,
+			);
 			productName = HiraganaFlashCards;
 			productReference = 292C62AF25CCAEE00040A3E7 /* HiraganaFlashCards.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +117,9 @@
 				Base,
 			);
 			mainGroup = 292C62A625CCAEDF0040A3E7;
+			packageReferences = (
+				292C62C225CCAEF70040A3E7 /* XCRemoteSwiftPackageReference "LearnHiragana" */,
+			);
 			productRefGroup = 292C62B025CCAEE00040A3E7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -328,6 +336,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		292C62C225CCAEF70040A3E7 /* XCRemoteSwiftPackageReference "LearnHiragana" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/0xLeif/LearnHiragana";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		292C62C325CCAEF70040A3E7 /* LearnHiragana */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 292C62C225CCAEF70040A3E7 /* XCRemoteSwiftPackageReference "LearnHiragana" */;
+			productName = LearnHiragana;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 292C62A725CCAEDF0040A3E7 /* Project object */;
 }
